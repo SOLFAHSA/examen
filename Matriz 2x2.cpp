@@ -13,12 +13,16 @@ int main(){
 	cout<<"Digite el numero de columnas: "; cin>>columnas;
 	
 	//Rellenando la matriz	
+
+		
 	for(int i=0;i<filas;i++){
 		for(int j=0;j<columnas;j++){
 			cout<<"Digite un numero ["<<i<<"]["<<j<<"]: ";
 			cin>>numeros[i][j];
+			
 		}
 	} 
+
 	
 	cout<<"\nImprimiento matriz\n\n";
 	
